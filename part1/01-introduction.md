@@ -3,6 +3,8 @@
 > "It's not a chatbot. It's an agent."
 > —— Anthropic 工程师
 
+> 2026 年 3 月，Claude Code 完整 TypeScript 源码意外泄漏。这本书基于这份第一手源码写成。
+
 ---
 
 ## 1.1 一句话解释

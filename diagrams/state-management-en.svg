@@ -31,14 +31,14 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="22" font-weight="bold"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">两层状态架构</text>
+         dominant-baseline="middle">Two-Layer State Architecture</text>
   <rect x="60" y="62" width="680" height="155" rx="12"
        fill="#dbe4ff" stroke="#1e40af" stroke-width="2.5" />
   <text x="400" y="84"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="16" font-weight="600"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">Bootstrap State（全局单例）  src/bootstrap/state.ts</text>
+         dominant-baseline="middle">Bootstrap State (Global Singleton)  src/bootstrap/state.ts</text>
   <rect x="90" y="102" width="620" height="100" rx="8"
        fill="#a5d8ff" stroke="#3b82f6" stroke-width="2" />
   <text x="400" y="140"
@@ -50,27 +50,27 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#374151" text-anchor="middle"
-         dominant-baseline="middle">OpenTelemetry providers · 注册的 hooks</text>
+         dominant-baseline="middle">OpenTelemetry providers · Registered hooks</text>
   <text x="650" y="108"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="12" font-weight="normal"
          fill="#3730a3" text-anchor="middle"
-         dominant-baseline="middle">进程级 · 跨会话持久</text>
-  <path d="M400,218 Q400.8696476495954,243 400,268"
+         dominant-baseline="middle">Process-level · Cross-session</text>
+  <path d="M400,218 Q398.2751620327127,243 400,268"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <text x="470" y="244"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">被 AppState 读取</text>
+         dominant-baseline="middle">Read by AppState</text>
   <rect x="60" y="272" width="680" height="155" rx="12"
        fill="#d3f9d8" stroke="#059669" stroke-width="2.5" />
   <text x="400" y="294"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="16" font-weight="600"
          fill="#065f46" text-anchor="middle"
-         dominant-baseline="middle">AppState（React 状态树）  src/state/AppStateStore.ts</text>
+         dominant-baseline="middle">AppState (React State Tree)  src/state/AppStateStore.ts</text>
   <rect x="90" y="312" width="620" height="100" rx="8"
        fill="#b2f2bb" stroke="#059669" stroke-width="2" />
   <text x="400" y="350"
@@ -82,18 +82,18 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#374151" text-anchor="middle"
-         dominant-baseline="middle">fileHistory · UI 状态（权限弹窗、进度等）</text>
+         dominant-baseline="middle">fileHistory · UI state (permission dialogs, progress, etc.)</text>
   <text x="648" y="318"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="12" font-weight="normal"
          fill="#065f46" text-anchor="middle"
-         dominant-baseline="middle">会话级 · 响应式更新</text>
-  <path d="M400,428 Q401.66548844420566,444 400,460"
+         dominant-baseline="middle">Session-level · Reactive updates</text>
+  <path d="M400,428 Q398.5946119065055,444 400,460"
        fill="none" stroke="#059669" stroke-width="2.5" 
        marker-end="url(#arr-059669)" />
   <text x="400" y="480"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">UI 渲染（Ink / React）</text>
+         dominant-baseline="middle">UI Rendering (Ink / React)</text>
 </svg>

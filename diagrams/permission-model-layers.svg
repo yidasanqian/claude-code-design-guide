@@ -44,7 +44,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">default / acceptEdits / bypassPermissions / plan  —  决定整体权限基调</text>
-  <path d="M450,152 Q448.9110669069967,158.5 450,165"
+  <path d="M450,152 Q450.92037478050577,158.5 450,165"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="80" y="170" width="740" height="88" rx="10"
@@ -59,7 +59,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">allowedTools: [FileReadTool...]   deniedTools: [BashTool...]  —  决定哪些工具可用</text>
-  <path d="M450,260 Q450.0656027274631,266.5 450,273"
+  <path d="M450,260 Q451.3122680867475,266.5 450,273"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="120" y="278" width="660" height="88" rx="10"
@@ -74,7 +74,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">FileReadTool → 自动允许    FileEditTool → 询问    BashTool → 询问</text>
-  <path d="M450,368 Q449.74662294031464,374.5 450,381"
+  <path d="M450,368 Q451.6491668646585,374.5 450,381"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="160" y="386" width="580" height="88" rx="10"
@@ -89,7 +89,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">"ls" → 低风险    "rm -rf" → 高风险必须确认  —  同一工具不同操作分级</text>
-  <path d="M450,476 Q448.13734694462676,482.5 450,489"
+  <path d="M450,476 Q450.5082171646316,482.5 450,489"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="200" y="494" width="500" height="88" rx="10"

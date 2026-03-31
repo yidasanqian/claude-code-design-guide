@@ -31,22 +31,22 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="22" font-weight="bold"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">多代理架构：三种模式</text>
+         dominant-baseline="middle">Multi-Agent Architecture: Three Modes</text>
   <rect x="30" y="62" width="255" height="215" rx="12"
        fill="#dbe4ff" stroke="#3730a3" stroke-width="2" stroke-dasharray="7,4"/>
   <text x="157" y="82"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="15" font-weight="600"
          fill="#3730a3" text-anchor="middle"
-         dominant-baseline="middle">模式一：子代理</text>
+         dominant-baseline="middle">Mode 1: Sub-Agent</text>
   <rect x="48" y="98" width="220" height="52" rx="8"
        fill="#a5d8ff" stroke="#1e40af" stroke-width="2" />
   <text x="158" y="124"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">父代理</text>
-  <path d="M158,151 Q157.56027599793407,164.5 158,178"
+         dominant-baseline="middle">Parent Agent</text>
+  <path d="M158,151 Q156.95866815742266,164.5 158,178"
        fill="none" stroke="#3730a3" stroke-width="2.5" 
        marker-end="url(#arr-3730a3)" />
   <rect x="48" y="183" width="220" height="52" rx="8"
@@ -55,27 +55,27 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#3730a3" text-anchor="middle"
-         dominant-baseline="middle">子代理（独立上下文）</text>
+         dominant-baseline="middle">Sub-Agent (isolated context)</text>
   <text x="158" y="252"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">阻塞等待结果</text>
+         dominant-baseline="middle">Blocks for result</text>
   <rect x="320" y="62" width="255" height="215" rx="12"
        fill="#d3f9d8" stroke="#065f46" stroke-width="2" stroke-dasharray="7,4"/>
   <text x="447" y="82"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="15" font-weight="600"
          fill="#065f46" text-anchor="middle"
-         dominant-baseline="middle">模式二：后台代理</text>
+         dominant-baseline="middle">Mode 2: Background Agent</text>
   <rect x="338" y="98" width="220" height="52" rx="8"
        fill="#a5d8ff" stroke="#1e40af" stroke-width="2" />
   <text x="448" y="124"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">父代理（立即继续）</text>
-  <path d="M448,151 Q448.4131666018038,164.5 448,178"
+         dominant-baseline="middle">Parent Agent (continues)</text>
+  <path d="M448,151 Q446.78059794007186,164.5 448,178"
        fill="none" stroke="#065f46" stroke-width="2.5" 
        marker-end="url(#arr-065f46)" />
   <rect x="338" y="183" width="220" height="52" rx="8"
@@ -84,27 +84,27 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#065f46" text-anchor="middle"
-         dominant-baseline="middle">子代理（后台运行）</text>
+         dominant-baseline="middle">Sub-Agent (runs in background)</text>
   <text x="448" y="252"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">完成后通知父代理</text>
+         dominant-baseline="middle">Notifies parent when done</text>
   <rect x="610" y="62" width="255" height="215" rx="12"
        fill="#fff3bf" stroke="#92400e" stroke-width="2" stroke-dasharray="7,4"/>
   <text x="737" y="82"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="15" font-weight="600"
          fill="#92400e" text-anchor="middle"
-         dominant-baseline="middle">模式三：Worktree 隔离</text>
+         dominant-baseline="middle">Mode 3: Worktree Isolation</text>
   <rect x="628" y="98" width="220" height="52" rx="8"
        fill="#a5d8ff" stroke="#1e40af" stroke-width="2" />
   <text x="738" y="124"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">父代理（main branch）</text>
-  <path d="M738,151 Q736.5836245264705,164.5 738,178"
+         dominant-baseline="middle">Parent Agent (main branch)</text>
+  <path d="M738,151 Q738.9234675014563,164.5 738,178"
        fill="none" stroke="#92400e" stroke-width="2.5" 
        marker-end="url(#arr-92400e)" />
   <rect x="628" y="183" width="220" height="52" rx="8"
@@ -113,26 +113,26 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#92400e" text-anchor="middle"
-         dominant-baseline="middle">子代理（独立 worktree）</text>
+         dominant-baseline="middle">Sub-Agent (isolated worktree)</text>
   <text x="738" y="252"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">隔离分支，可选合并</text>
+         dominant-baseline="middle">Isolated branch, optional merge</text>
   <rect x="40" y="305" width="820" height="215" rx="12"
        fill="#f8fafc" stroke="#94a3b8" stroke-width="2" />
   <text x="450" y="330"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="17" font-weight="600"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">子代理上下文隔离（Context Isolation）</text>
+         dominant-baseline="middle">Sub-Agent Context Isolation</text>
   <rect x="58" y="350" width="360" height="150" rx="8"
        fill="#a5d8ff" stroke="#3b82f6" stroke-width="2" />
   <text x="238" y="373"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="600"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">父代理 messages[]</text>
+         dominant-baseline="middle">Parent Agent messages[]</text>
   <text x="238" y="385.75"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
@@ -159,7 +159,7 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="600"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">子代理 messages[] (fresh)</text>
+         dominant-baseline="middle">Sub-Agent messages[] (fresh)</text>
   <text x="662" y="385.75"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
@@ -184,5 +184,5 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#059669" text-anchor="middle"
-         dominant-baseline="middle">父代理只收到摘要，不承担子代理的上下文膨胀</text>
+         dominant-baseline="middle">Parent agent only receives summary, doesn't inherit sub-agent's context bloat</text>
 </svg>

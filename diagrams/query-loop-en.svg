@@ -31,15 +31,15 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="22" font-weight="bold"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">query() 执行循环</text>
+         dominant-baseline="middle">query() Execution Loop</text>
   <rect x="170" y="62" width="460" height="52" rx="8"
        fill="#fff3bf" stroke="#d97706" stroke-width="2" />
   <text x="400" y="88"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="15" font-weight="600"
          fill="#92400e" text-anchor="middle"
-         dominant-baseline="middle">turnCount++  ·  检查轮次限制</text>
-  <path d="M400,115 Q400.4117151899315,131.5 400,148"
+         dominant-baseline="middle">turnCount++  ·  Check turn limit</text>
+  <path d="M400,115 Q399.79772322741815,131.5 400,148"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="170" y="152" width="460" height="80" rx="8"
@@ -48,13 +48,13 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="15" font-weight="600"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">调用 Claude API（流式）</text>
+         dominant-baseline="middle">Call Claude API (streaming)</text>
   <text x="400" y="200"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">messages  ·  systemPrompt  ·  tools</text>
-  <path d="M400,233 Q401.65030511772386,250.5 400,268"
+  <path d="M400,233 Q401.95615071698046,250.5 400,268"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="170" y="272" width="460" height="80" rx="8"
@@ -63,13 +63,13 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="15" font-weight="600"
          fill="#065f46" text-anchor="middle"
-         dominant-baseline="middle">解析流式响应</text>
+         dominant-baseline="middle">Parse Streaming Response</text>
   <text x="400" y="318"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="12" font-weight="normal"
          fill="#374151" text-anchor="middle"
-         dominant-baseline="middle">text → yield 给用户  ·  thinking → 内部处理  ·  tool_use → 收集</text>
-  <path d="M400,353 Q400.56321635867437,370.5 400,388"
+         dominant-baseline="middle">text → yield to user  ·  thinking → internal  ·  tool_use → collect</text>
+  <path d="M400,353 Q400.1023078126602,370.5 400,388"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="170" y="392" width="460" height="48" rx="8"
@@ -78,7 +78,7 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="15" font-weight="600"
          fill="#3730a3" text-anchor="middle"
-         dominant-baseline="middle">有工具调用？</text>
+         dominant-baseline="middle">Has tool calls?</text>
   <line x1="630" y1="416" x2="710" y2="416"
        stroke="#dc2626" stroke-width="2" 
        marker-end="url(#arr-dc2626)" />
@@ -86,22 +86,22 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="12" font-weight="normal"
          fill="#dc2626" text-anchor="middle"
-         dominant-baseline="middle">否→结束</text>
-  <path d="M400,440 Q399.1357103116607,460 400,480"
+         dominant-baseline="middle">No→End</text>
+  <path d="M400,440 Q399.2489834806384,460 400,480"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <text x="412" y="460"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#059669" text-anchor="middle"
-         dominant-baseline="middle">是</text>
+         dominant-baseline="middle">Yes</text>
   <rect x="170" y="484" width="460" height="52" rx="8"
        fill="#d0bfff" stroke="#9333ea" stroke-width="2" />
   <text x="400" y="510"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="600"
          fill="#6b21a8" text-anchor="middle"
-         dominant-baseline="middle">并行执行工具调用  ·  工具结果追加到消息列表</text>
+         dominant-baseline="middle">Execute tool calls in parallel  ·  Append results to messages</text>
   <line x1="168" y1="510" x2="110" y2="510"
        stroke="#d97706" stroke-width="2" 
        marker-end="url(#arr-d97706)" />
@@ -115,12 +115,12 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#d97706" text-anchor="middle"
-         dominant-baseline="middle">循环</text>
+         dominant-baseline="middle">Loop</text>
   <rect x="170" y="550" width="460" height="22" rx="5"
        fill="#f8fafc" stroke="#94a3b8" stroke-width="1" />
   <text x="400" y="561"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="12" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">token 预算超出 → 结束循环</text>
+         dominant-baseline="middle">Token budget exceeded → End loop</text>
 </svg>

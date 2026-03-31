@@ -39,7 +39,7 @@
          font-size="17" font-weight="600"
          fill="#1e40af" text-anchor="middle"
          dominant-baseline="middle">submitMessage( userInput )</text>
-  <path d="M370,122 Q368.70414380171667,142.5 370,163"
+  <path d="M370,122 Q371.55424401448795,142.5 370,163"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="110" y="165" width="520" height="75" rx="10"
@@ -54,7 +54,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">解析斜杠命令 · 处理附件 · 注入 Memory</text>
-  <path d="M370,242 Q369.5227712321118,262.5 370,283"
+  <path d="M370,242 Q371.2991261715133,262.5 370,283"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="110" y="285" width="520" height="75" rx="10"
@@ -69,7 +69,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">历史消息 · 新用户消息 · 系统上下文</text>
-  <path d="M370,362 Q370.1755750525722,382.5 370,403"
+  <path d="M370,362 Q368.9896922876905,382.5 370,403"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="110" y="405" width="520" height="120" rx="10"
@@ -89,7 +89,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">解析响应 → 执行工具调用 → 循环直到完成</text>
-  <path d="M370,527 Q369.5694045833374,550 370,573"
+  <path d="M370,527 Q369.4624358762744,550 370,573"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="110" y="575" width="520" height="75" rx="10"
@@ -104,7 +104,7 @@
          font-size="13" font-weight="normal"
          fill="#374151" text-anchor="middle"
          dominant-baseline="middle">记录 token · 保存会话 · 触发 hooks · 检查压缩</text>
-  <path d="M370,652 Q369.127896914206,672.5 370,693"
+  <path d="M370,652 Q368.83853293895686,672.5 370,693"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="110" y="695" width="520" height="60" rx="10"

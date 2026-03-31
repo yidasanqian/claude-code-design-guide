@@ -1,5 +1,11 @@
 # Claude Code 设计指南
 
+<div align="center">
+
+**[English](./README_EN.md) | 中文**
+
+</div>
+
 > 从互联网早期设计模型到 AI Agent 实战 —— 一本写给开发者的 Claude Code 深度解析
 >
 > 鸣谢泄漏的程序员，鸣谢用AI完成这本书的提出者

@@ -31,7 +31,7 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="22" font-weight="bold"
          fill="#1e40af" text-anchor="middle"
-         dominant-baseline="middle">权限检查决策树</text>
+         dominant-baseline="middle">Permission Check Decision Tree</text>
   <rect x="295" y="62" width="250" height="52" rx="8"
        fill="#a5d8ff" stroke="#1e40af" stroke-width="2.5" />
   <text x="420" y="88"
@@ -39,7 +39,7 @@
          font-size="14" font-weight="600"
          fill="#1e40af" text-anchor="middle"
          dominant-baseline="middle">canUseTool( toolName, input )</text>
-  <path d="M420,115 Q418.5419351211158,131.5 420,148"
+  <path d="M420,115 Q421.6422637039257,131.5 420,148"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <rect x="245" y="152" width="350" height="48" rx="8"
@@ -48,7 +48,7 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#92400e" text-anchor="middle"
-         dominant-baseline="middle">bypassPermissions 模式？</text>
+         dominant-baseline="middle">bypassPermissions mode?</text>
   <line x1="595" y1="176" x2="690" y2="176"
        stroke="#059669" stroke-width="2" 
        marker-end="url(#arr-059669)" />
@@ -63,22 +63,22 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#059669" text-anchor="middle"
-         dominant-baseline="middle">是</text>
-  <path d="M420,200 Q418.66975948455183,219 420,238"
+         dominant-baseline="middle">Yes</text>
+  <path d="M420,200 Q419.83476664918766,219 420,238"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <text x="438" y="218"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">否</text>
+         dominant-baseline="middle">No</text>
   <rect x="245" y="242" width="350" height="48" rx="8"
        fill="#dbe4ff" stroke="#3730a3" stroke-width="2" />
   <text x="420" y="266"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#3730a3" text-anchor="middle"
-         dominant-baseline="middle">工具在白名单中？</text>
+         dominant-baseline="middle">Tool in whitelist?</text>
   <line x1="595" y1="266" x2="690" y2="266"
        stroke="#059669" stroke-width="2" 
        marker-end="url(#arr-059669)" />
@@ -93,22 +93,22 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#059669" text-anchor="middle"
-         dominant-baseline="middle">是</text>
-  <path d="M420,290 Q418.8946132182228,309 420,328"
+         dominant-baseline="middle">Yes</text>
+  <path d="M420,290 Q419.04677813971784,309 420,328"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <text x="438" y="308"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">否</text>
+         dominant-baseline="middle">No</text>
   <rect x="245" y="332" width="350" height="48" rx="8"
        fill="#ffc9c9" stroke="#dc2626" stroke-width="2" />
   <text x="420" y="356"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="normal"
          fill="#dc2626" text-anchor="middle"
-         dominant-baseline="middle">工具在黑名单中？</text>
+         dominant-baseline="middle">Tool in blacklist?</text>
   <line x1="595" y1="356" x2="690" y2="356"
        stroke="#dc2626" stroke-width="2" 
        marker-end="url(#arr-dc2626)" />
@@ -123,25 +123,25 @@
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#dc2626" text-anchor="middle"
-         dominant-baseline="middle">是</text>
-  <path d="M420,380 Q418.9346477793361,399 420,418"
+         dominant-baseline="middle">Yes</text>
+  <path d="M420,380 Q421.7082185051536,399 420,418"
        fill="none" stroke="#3b82f6" stroke-width="2.5" 
        marker-end="url(#arr-3b82f6)" />
   <text x="438" y="398"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="13" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">否</text>
+         dominant-baseline="middle">No</text>
   <rect x="245" y="422" width="350" height="48" rx="8"
        fill="#e5dbff" stroke="#9333ea" stroke-width="2" />
   <text x="420" y="446"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="14" font-weight="600"
          fill="#6b21a8" text-anchor="middle"
-         dominant-baseline="middle">默认：询问用户（ask）</text>
+         dominant-baseline="middle">Default: Ask user</text>
   <text x="420" y="490"
          font-family="'Segoe UI',system-ui,sans-serif"
          font-size="12" font-weight="normal"
          fill="#6b7280" text-anchor="middle"
-         dominant-baseline="middle">BashTool 额外分析命令安全性  ·  FileEditTool 检查路径是否在允许范围</text>
+         dominant-baseline="middle">BashTool analyzes command safety  ·  FileEditTool checks path permissions</text>
 </svg>

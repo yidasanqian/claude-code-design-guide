@@ -503,3 +503,8 @@ Bootstrap State fields are categorized by purpose as follows (confirm whether ne
 > **store.subscribe returns an unsubscribe function**
 > `store.subscribe(listener)` returns an unsubscribe function. When used in React components, be sure to call unsubscribe in the cleanup phase to avoid memory leaks and ghost updates.
 
+
+
+---
+
+[← Config System](../13-配置体系/config-system-en.md) | [Index](../README_EN.md) | [Command System →](../15-命令体系/command-system-en.md)

@@ -361,3 +361,8 @@ Layering benefit: When FPS changes every frame, it only triggers re-rendering of
 
 > **Early input capture**
 > `seedEarlyInput()` captures and buffers user keystrokes before the REPL is fully ready, replaying them when ready. When adding new input handling logic, ensure compatibility with early input.
+
+
+---
+
+[← Multi-Agent](../11-多智能体/multi-agent-en.md) | [Index](../README_EN.md) | [Config System →](../13-配置体系/config-system-en.md)

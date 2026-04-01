@@ -156,3 +156,8 @@ The source code `outputsScanner.ts` uses `stat().mtime > turnStartTime` to detec
 - Symbolic links are always skipped — this is a deliberate security design decision
 - `turnStartTime` precision depends on the system clock; clock skew may cause misses or duplicates
 - `AbortSignal` allows interrupting uploads that are still in progress when the user initiates a new turn
+
+
+---
+
+[← Migration System](../40-迁移系统/migration-system-en.md) | [Index](../README_EN.md) | [Cost Tracking →](../42-代价追踪/cost-tracking-en.md)

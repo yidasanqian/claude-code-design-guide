@@ -157,3 +157,8 @@ function clearOutputStyleCaches(): void
 ## 生命周期流程
 
 ![输出样式生命周期流程](../diagrams/output-styles-lifecycle.svg)
+
+
+---
+
+[← Teleport](../37-Teleport/teleport-system.md) | [目录](../README.md) | [原生模块 →](../39-原生模块/native-modules.md)

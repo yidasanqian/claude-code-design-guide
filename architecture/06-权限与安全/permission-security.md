@@ -512,7 +512,7 @@ type PermissionUpdateDestination = 'user' | 'project' | 'local'
 
 ## 13. 权限决策完整数据流
 
-![Permission Decision Pipeline](diagrams/permission-decision-pipeline.svg)
+![Permission Decision Pipeline](../diagrams/permission-decision-pipeline.svg)
 
 ---
 
@@ -588,3 +588,8 @@ type PermissionUpdateDestination = 'user' | 'project' | 'local'
 4. **auto 模式的分类器结果不应被视为最终决策** — 分类器是概率性的，拒绝追踪（`denialTracking.ts`）会在连续拒绝达到阈值时回退到用户提示。不要假设分类器的 `allow`/`deny` 是不可推翻的
 
 5. **子代理的权限使用 `bubble` 模式** — 子代理（通过 `AgentTool` 创建）不应独立做权限决策。`bubble` 模式让权限请求冒泡到父级。如果在子代理中看到意外的权限行为，检查是否正确设置了 `bubble` 模式
+
+
+---
+
+[← 工具系统](../05-工具系统/tool-system.md) | [目录](../README.md) | [上下文管理 →](../07-上下文管理/context-management.md)

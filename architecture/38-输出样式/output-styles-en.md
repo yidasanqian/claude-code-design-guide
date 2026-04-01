@@ -157,3 +157,8 @@ The decision logic in the source code `prompts.ts` (lines 564-567): when `output
 ## Lifecycle Flow
 
 ![Output Styles Lifecycle Flow](../diagrams/output-styles-lifecycle-en.svg)
+
+
+---
+
+[← Teleport](../37-Teleport/teleport-system-en.md) | [Index](../README_EN.md) | [Native Modules →](../39-原生模块/native-modules-en.md)

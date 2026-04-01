@@ -220,3 +220,8 @@ interface VoiceContextValue {
 > **ant-only 的 VoiceContext 在开源构建中不存在**: `src/context/voice.tsx` 被 `ant-only` 标记,编译期排除在开源版本之外。如果你在开源构建中引用 `VoiceContext`,会得到编译错误而非运行时错误。在编写依赖语音的代码时,始终做空值检查。
 
 > **GrowthBook flag 的缓存**: `tengu_amber_quartz_disabled` 的值可能被本地磁盘缓存。如果服务端已更新 flag 但客户端仍然显示旧状态,检查本地 GrowthBook 缓存是否过期。源码设计为"缓存缺失时默认为未禁用"——新安装会在缓存同步前正常工作。
+
+
+---
+
+[← Vim 模式](../28-Vim模式/vim-mode.md) | [目录](../README.md) | [远程会话 →](../30-远程会话/remote-session.md)

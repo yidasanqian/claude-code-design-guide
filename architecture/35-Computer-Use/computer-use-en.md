@@ -316,3 +316,8 @@ If cleanup is incomplete (e.g., the process is killed with SIGKILL), manually ch
 > **macOS only**: Windows and Linux do not support Computer Use — the native modules (`@ant/computer-use-input` and `@ant/computer-use-swift`) depend on macOS-specific APIs (CGEvent, SCContentFilter, NSWorkspace, TCC).
 
 > **CFRunLoop pump CPU overhead**: `_drainMainRunLoop` is called every 1ms; be sure to stop it via `releasePump()` when Computer Use is not active. The 30s timeout protection stops it automatically, but 30 seconds of idle spinning still wastes CPU.
+
+
+---
+
+[← Swarm System](../34-Swarm系统/swarm-architecture-en.md) | [Index](../README_EN.md) | [DeepLink →](../36-DeepLink/deeplink-system-en.md)

@@ -220,3 +220,8 @@ sendSandboxPermissionResponseViaMailbox()
 | Windows 无原生沙箱 | `sandbox-exec`/`bwrap` 在 Windows 上不可用 | 源码注释确认 PowerShell tool 在 Windows native 上 sandbox 不可用 |
 | 沙箱违规可能被忽略 | `ignoreViolations: true` 时违规不阻止执行 | 仅在调试/开发场景使用此选项 |
 | 每个命令独立评估沙箱 | 即使最近用了 `dangerouslyDisableSandbox`，后续命令仍默认沙箱运行 | 源码 prompt 明确要求"Treat each command individually" |
+
+
+---
+
+[← LSP 集成](../23-LSP集成/lsp-integration.md) | [目录](../README.md) | [Git 与 GitHub →](../25-Git与GitHub/git-github.md)

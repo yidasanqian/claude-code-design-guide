@@ -64,3 +64,5 @@
   <text x="400" y="535" class="layer-text" text-anchor="middle">Tools Layer</text>
   <text x="400" y="555" class="desc-text" text-anchor="middle">Execution Units with Identity</text>
   <text x="400" y="570" class="desc-text" text-anchor="middle">tools/ (Bash, Read, Write, etc.)</text>
+
+</svg>

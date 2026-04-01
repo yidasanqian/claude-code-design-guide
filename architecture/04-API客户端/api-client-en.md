@@ -570,3 +570,8 @@ When cache hit rate is lower than expected:
 5. **413 errors don't retry in `withRetry`** — `prompt_too_long` errors are handled by `reactiveCompact` in `query.ts`. `withRetry` only does network-layer retries, semantic-layer errors (like context too long) need upper-layer handling
 
 6. **`CannotRetryError` immediately terminates retry loop** — If your error handling code throws `CannotRetryError`, `withRetry` will immediately stop retrying and return error to caller. Only use when confirmed unrecoverable
+
+
+---
+
+[← Query Engine](../03-查询引擎/query-engine-en.md) | [Index](../README_EN.md) | [Tool System →](../05-工具系统/tool-system-en.md)

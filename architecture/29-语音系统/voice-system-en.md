@@ -220,3 +220,8 @@ The `reason` field returned by the `useVoiceEnabled()` hook tells you directly w
 > **The ant-only VoiceContext does not exist in open-source builds**: `src/context/voice.tsx` is marked `ant-only` and is excluded from the open-source version at compile time. If you reference `VoiceContext` in an open-source build you will get a compile error rather than a runtime error. Always perform null checks when writing code that depends on voice.
 
 > **Caching of the GrowthBook flag**: The value of `tengu_amber_quartz_disabled` may be cached to local disk. If the server-side flag has been updated but the client still shows the old state, check whether the local GrowthBook cache has expired. The source code is designed so that "a missing cache defaults to not-disabled" — a fresh install will work normally before the cache synchronizes.
+
+
+---
+
+[← Vim Mode](../28-Vim模式/vim-mode-en.md) | [Index](../README_EN.md) | [Remote Session →](../30-远程会话/remote-session-en.md)

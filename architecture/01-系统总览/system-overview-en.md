@@ -511,3 +511,8 @@ If you need to add a completely new subsystem to Claude Code (e.g., new tool cat
 4. **Don't access state before global singleton initialization completes** — Calling `getBootstrapState()` in `bootstrap/state.ts` before `init()` completes gets undefined or initial values. Ensure your code executes after the `init()` chain.
 
 5. **Don't bypass query loop to directly call API** — `queryModelWithStreaming()` in `services/api/claude.ts` needs to coordinate with retry/fallback/cooldown logic in `withRetry.ts`. Directly calling SDK skips all error recovery mechanisms.
+
+
+---
+
+[Index](../README_EN.md) | [Startup & Initialization →](../02-启动与初始化/initialization-en.md)

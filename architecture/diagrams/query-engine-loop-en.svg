@@ -61,3 +61,5 @@
   <!-- Loop arrow -->
   <path d="M 850 650 Q 950 400 850 150" class="loop-arrow"/>
   <text x="920" y="400" class="desc-text" text-anchor="middle" fill="#dc2626">Loop</text>
+
+</svg>

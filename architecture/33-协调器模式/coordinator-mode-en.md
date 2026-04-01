@@ -233,3 +233,8 @@ The Coordinator automatically identifies task dependencies to maximize paralleli
 > **Mode consistency check**: `matchSessionMode()` ensures that the mode matches when resuming a session — a session created in coordinator mode cannot be resumed in normal mode (and vice versa). If resumption fails, check the original creation mode of the session.
 
 > **Worker context isolation**: Each Worker runs in an isolated context and does not share memory state. Workers cannot directly read the Coordinator's variables or other workers' state — they can only communicate indirectly through `<task-notification>` XML reports and the scratch directory.
+
+
+---
+
+[← Buddy System](../32-Buddy系统/buddy-system-en.md) | [Index](../README_EN.md) | [Swarm System →](../34-Swarm系统/swarm-architecture-en.md)

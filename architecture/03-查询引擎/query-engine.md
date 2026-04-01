@@ -212,7 +212,7 @@ while (true) {
 
 ### 3.4 五阶段循环流程
 
-![Query Engine Loop](diagrams/query-engine-loop.svg)
+![Query Engine Loop](../diagrams/query-engine-loop.svg)
 
 #### Phase 1: 上下文准备
 
@@ -668,3 +668,8 @@ if (params.taskBudget) {
 5. **`stopHookActive` 防止停止钩子递归** — 当停止钩子返回 `blockingErrors` 后，`stopHookActive` 设为 true，防止下一轮循环再次执行停止钩子。如果你的代码依赖停止钩子的执行，注意这个标志可能导致钩子被跳过
 
 6. **Token Budget 的 `completionEvent` 可能为 null** — `StopDecision.completionEvent` 为 null 表示查询未参与预算系统（如子代理查询），不要对 null 值调用属性访问
+
+
+---
+
+[← 启动与初始化](../02-启动与初始化/initialization.md) | [目录](../README.md) | [API 客户端 →](../04-API客户端/api-client.md)

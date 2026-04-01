@@ -319,3 +319,8 @@ GET /v1/models
 - 通过 API 查询模型的具体能力参数
 - 查询结果缓存到本地文件，避免重复请求
 - 包含 context window 大小、支持的功能特性等信息
+
+
+---
+
+[← 输出样式](../38-输出样式/output-styles.md) | [目录](../README.md) | [迁移系统 →](../40-迁移系统/migration-system.md)

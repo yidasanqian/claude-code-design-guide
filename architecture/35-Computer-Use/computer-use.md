@@ -316,3 +316,8 @@ const HOLDER_STALE_MS = 60 * 60 * 1000  // 60 分钟
 > **仅 macOS 支持**: Windows 和 Linux 不支持 Computer-Use——原生模块 (`@ant/computer-use-input` 和 `@ant/computer-use-swift`) 依赖 macOS 特有的 API (CGEvent、SCContentFilter、NSWorkspace、TCC)。
 
 > **CFRunLoop 泵的 CPU 开销**: `_drainMainRunLoop` 每 1ms 调用一次,在 Computer-Use 不活跃时务必通过 `releasePump()` 停止。30s 超时保护会自动停止,但 30s 的空转仍然浪费 CPU。
+
+
+---
+
+[← Swarm 系统](../34-Swarm系统/swarm-architecture.md) | [目录](../README.md) | [DeepLink →](../36-DeepLink/deeplink-system.md)

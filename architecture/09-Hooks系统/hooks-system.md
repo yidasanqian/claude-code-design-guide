@@ -409,3 +409,8 @@ export function useMyFeature() {
 
 > **NOTE(keybindings) 标注的 escape handler**
 > 源码中 `useTextInput.ts:122` 和 `useVimInput.ts:189` 的 escape handler 被明确标注为"intentionally NOT migrated to the keybindings system"——这些是刻意不迁移的，修改时不要将其移入 keybindings 系统。
+
+
+---
+
+[← MCP 集成](../08-MCP集成/mcp-integration.md) | [目录](../README.md) | [Skills 系统 →](../10-Skills系统/skills-system.md)

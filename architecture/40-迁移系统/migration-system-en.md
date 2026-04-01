@@ -152,3 +152,8 @@ Things to note when adding a new migration:
 - **Do not depend on the results of other migrations** -- Each migration must work independently and cannot assume a preceding migration has already run. Although `migrationsList` executes in order, if migration A depends on migration B's result, a failure in B will cascade-fail A
 - **Do not make network calls inside migrations** -- Migrations execute synchronously at startup; network calls will block the startup flow and will cause the application to fail to start in offline scenarios
 - **Do not delete code that reads old config fields** -- Retain the read logic for old fields as a compatibility layer until you can confirm all users have been migrated
+
+
+---
+
+[← Native Modules](../39-原生模块/native-modules-en.md) | [Index](../README_EN.md) | [File Persistence →](../41-文件持久化/file-persistence-en.md)

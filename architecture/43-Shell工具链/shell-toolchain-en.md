@@ -240,3 +240,8 @@ Strict security limits are enforced on DXT extension packages (zip format):
 
 - **isPathSafe()**: Path safety validation; rejects entries containing path traversal (`..`) to prevent zip slip attacks
 - **Zip bomb detection**: Detects potential zip bombs via compression ratio checking (50:1 upper limit), preventing disk space and memory exhaustion during extraction
+
+
+---
+
+[← Cost Tracking](../42-代价追踪/cost-tracking-en.md) | [Index](../README_EN.md) | [Screens Components →](../44-Screens组件/screens-components-en.md)

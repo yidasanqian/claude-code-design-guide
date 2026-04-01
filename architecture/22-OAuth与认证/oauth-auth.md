@@ -354,3 +354,8 @@ isMacOsKeychainLocked() → boolean
 | 端口冲突 | 本地 OAuth callback 服务器端口被占用 | 使用 port 0 让 OS 分配随机可用端口 |
 | state 参数 CSRF 防护 | 回调中 state 不匹配会被拒绝 | 确保浏览器回调的 state 参数与发起请求时一致 |
 | `getAnthropicClient` 循环引用风险 | 此函数被多处调用 | 源码注释："Currently we create a new GoogleAuth instance for every getAnthropicClient() call"——注意性能影响 |
+
+
+---
+
+[← 插件系统](../21-插件系统/plugin-system.md) | [目录](../README.md) | [LSP 集成 →](../23-LSP集成/lsp-integration.md)

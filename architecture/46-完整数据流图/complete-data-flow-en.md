@@ -111,3 +111,8 @@ New feature needs to modify how API responses are processed?
 New feature needs a new error recovery strategy?
   └─ YES → choose the appropriate layer within Phase 4 (error recovery) 5-layer strategy to insert
 ```
+
+
+---
+
+[← Type System](../45-类型系统/type-system-en.md) | [Index](../README_EN.md)

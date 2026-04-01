@@ -442,3 +442,8 @@ wc -c .claude/MEMORY.md
 | Memories not retrieved | `findRelevantMemories` uses Sonnet-based semantic matching; memories with unclear descriptions may be ignored | Ensure memory file header/description clearly reflects content theme |
 | autoDream consolidation conflicts | Concurrent Claude Code instances running autoDream simultaneously | PID lock mechanism (60-minute timeout) prevents concurrency, but may need manual lock file cleanup after crashes |
 | Only save information not derivable from project state | Code patterns, architecture, git history, and other derivable content should not be stored as memories | Follow the four-type classification, avoid storing information obtainable via grep/git/file structure |
+
+
+---
+
+[← Command System](../15-命令体系/command-system-en.md) | [Index](../README_EN.md) | [Error Recovery →](../17-错误恢复/error-recovery-en.md)

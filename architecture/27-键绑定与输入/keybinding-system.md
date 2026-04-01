@@ -471,3 +471,8 @@ useKeybindings({
 | Chord 序列中途取消 | chord 序列进行中无匹配的后续键会返回 `chord_cancelled` 并重置 | 用户需要重新开始整个 chord 序列 |
 | keybindings.json 格式错误 | 无效的 JSON 或不符合 schema 的结构 | 自动回退到默认绑定，输出警告日志 |
 | 平台修饰键差异 | macOS 使用 Meta（Command），Windows/Linux 使用 Alt | `keystrokesEqual()` 将 alt 和 meta 视为等价处理 |
+
+
+---
+
+[← 会话管理](../26-会话管理/session-management.md) | [目录](../README.md) | [Vim 模式 →](../28-Vim模式/vim-mode.md)

@@ -249,3 +249,8 @@ Bridge 协议定义了丰富的类型系统支撑整个通信流程。
 > **认证过期的连锁反应**: Bridge 认证令牌过期 (401) 后,所有正在进行的请求都会失败。`createBridgeApiClient` 内置了认证重试能力,但如果令牌彻底无效 (而非临时过期),会抛出 `BridgeFatalError`。不要在循环中重试 fatal error。
 
 > **validateBridgeId() 必须调用**: 这不是可选的验证——Bridge ID 直接用于构建 API URL 路径,不验证可能导致路径遍历攻击。任何接收外部 Bridge ID 的入口点都必须先调用此函数。
+
+
+---
+
+[← 远程会话](../30-远程会话/remote-session.md) | [目录](../README.md) | [Buddy 系统 →](../32-Buddy系统/buddy-system.md)

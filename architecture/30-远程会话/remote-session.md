@@ -263,3 +263,8 @@ const directConnectManager = {
 > **指数退避重连的副作用**: 断连后重连间隔指数增长 (1s→2s→4s→8s→...→30s),如果用户在等待重连时手动操作可能导致状态不一致。连接成功后计数器会重置,但在重连期间发送的消息会丢失 (不会缓冲)——确保重要操作在连接确认后再发送。
 
 > **会话模式不可混用**: `detached` 状态的会话可以被重新 `attach`,但不要在 `stopping` 状态尝试发送消息。`idleTimeout` 到期后会话自动进入 `stopping` → `stopped`,已停止的会话不可恢复。
+
+
+---
+
+[← 语音系统](../29-语音系统/voice-system.md) | [目录](../README.md) | [Bridge 协议 →](../31-Bridge协议/bridge-protocol.md)

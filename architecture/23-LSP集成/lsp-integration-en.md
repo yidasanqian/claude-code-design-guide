@@ -199,3 +199,8 @@ Detects whether the process is running in script invocation mode (bare mode); LS
 | Reinitialization on plugin refresh | `reinitializeLspServerManager()` shuts down the old instance and creates a new one | The generation counter invalidates old promises |
 | Bare mode skips LSP | Code intelligence is not needed in script invocation mode | The `isBareMode()` check runs before initialization |
 | Deferred queue | Requests are buffered when the connection is not ready | Sent automatically once the connection is ready, but may cause response delays |
+
+
+---
+
+[← OAuth & Auth](../22-OAuth与认证/oauth-auth-en.md) | [Index](../README_EN.md) | [Sandbox System →](../24-沙箱系统/sandbox-system-en.md)

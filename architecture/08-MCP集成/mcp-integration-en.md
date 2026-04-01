@@ -439,3 +439,8 @@ When MCP servers require OAuth authentication:
 > **MCP server memoization adds complexity**
 > TODO comment in source code at `client.ts:589` notes: MCP client memoization significantly increases code complexity, and performance benefits are uncertain. When modifying MCP connection logic, be aware of cache state consistency issues.
 
+
+
+---
+
+[← Context Management](../07-上下文管理/context-management-en.md) | [Index](../README_EN.md) | [Hooks System →](../09-Hooks系统/hooks-system-en.md)

@@ -372,3 +372,8 @@ interface StoredCostState {
 | 孤立 span 内存泄漏 | 异常导致 span 永不关闭 | 系统自动清理 TTL 超过 30 分钟的孤立 span |
 | 事件序号保证因果顺序 | `eventSequence` 单调递增计数器 | 异步环境下依赖序号而非时间戳判断事件顺序 |
 | 插件遥测隐私化 | `hashPluginId()` 使用 SHA256 截取前 16 字符 | 遥测数据中看不到插件原始名称/路径 |
+
+
+---
+
+[← 错误恢复](../17-错误恢复/error-recovery.md) | [目录](../README.md) | [反馈与调查 →](../19-反馈与调查/feedback-system.md)

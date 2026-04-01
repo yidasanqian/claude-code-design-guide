@@ -287,3 +287,8 @@ If a command is not visible in `/` autocomplete, investigate in this order:
 
 > **getCommands() is memoized**
 > `getCommands(cwd)` returns a cached command list. If new commands are dynamically added (such as MCP skills or plugins), the cache needs to be cleared (`clearCommandsCache()`, `clearCommandMemoizationCaches()`) to see the new commands.
+
+
+---
+
+[← State Management](../14-状态管理/state-management-en.md) | [Index](../README_EN.md) | [Memory System →](../16-记忆系统/memory-system-en.md)

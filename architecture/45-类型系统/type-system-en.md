@@ -373,3 +373,8 @@ types/generated/
 | `LogOptions`       | Logging configuration options                  |
 | `Plugin`           | Plugin manifest schema                         |
 | `PromptInputMode`  | Input mode enumeration                         |
+
+
+---
+
+[← Screens Components](../44-Screens组件/screens-components-en.md) | [Index](../README_EN.md) | [Complete Data Flow →](../46-完整数据流图/complete-data-flow-en.md)

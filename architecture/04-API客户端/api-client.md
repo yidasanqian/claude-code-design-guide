@@ -570,3 +570,8 @@ type KnownGateway =
 5. **413 错误不在 `withRetry` 中重试** — `prompt_too_long` 错误交给 `query.ts` 中的 `reactiveCompact` 处理。`withRetry` 只做网络层重试，语义层错误（如上下文过长）需要上层处理
 
 6. **`CannotRetryError` 立即终止重试循环** — 如果你的错误处理代码抛出 `CannotRetryError`，`withRetry` 会立即停止重试并将错误返回给调用方。只在确认不可恢复时使用
+
+
+---
+
+[← 查询引擎](../03-查询引擎/query-engine.md) | [目录](../README.md) | [工具系统 →](../05-工具系统/tool-system.md)

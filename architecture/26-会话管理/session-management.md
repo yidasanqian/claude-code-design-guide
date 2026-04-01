@@ -299,3 +299,8 @@ JSONL（每行一个 JSON 对象）支持追加写入——每条消息追加一
 | 费用状态按 sessionId 隔离 | 恢复会话时自动加载对应的费用状态 | 确保 `saveCurrentSessionCosts()` 在会话结束时被调用 |
 | `--no-session-persistence` | print 模式下完全禁用磁盘写入 | 适合隐私要求高或一次性使用的场景 |
 | 历史去重 | `getTimestampedHistory()` 基于 sessionId 去重 | 同一 sessionId 的多次写入只保留最新条目 |
+
+
+---
+
+[← Git 与 GitHub](../25-Git与GitHub/git-github.md) | [目录](../README.md) | [键绑定与输入 →](../27-键绑定与输入/keybinding-system.md)

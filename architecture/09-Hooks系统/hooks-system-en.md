@@ -409,3 +409,8 @@ export function useMyFeature() {
 
 > **NOTE(keybindings) marked escape handler**
 > The escape handlers in `useTextInput.ts:122` and `useVimInput.ts:189` in the source code are explicitly marked as "intentionally NOT migrated to the keybindings system"—these are deliberately not migrated, do not move them into the keybindings system when modifying.
+
+
+---
+
+[← MCP Integration](../08-MCP集成/mcp-integration-en.md) | [Index](../README_EN.md) | [Skills System →](../10-Skills系统/skills-system-en.md)

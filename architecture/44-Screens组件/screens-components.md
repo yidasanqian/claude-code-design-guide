@@ -135,3 +135,8 @@ function App() {
 ## 组件间通信
 
 ![组件间通信](../diagrams/screens-component-communication.svg)
+
+
+---
+
+[← Shell 工具链](../43-Shell工具链/shell-toolchain.md) | [目录](../README.md) | [类型系统 →](../45-类型系统/type-system.md)

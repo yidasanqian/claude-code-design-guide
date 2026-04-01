@@ -188,3 +188,8 @@ async function pollForApprovedExitPlanMode(): Promise<ExitPlanResult>
 ## Data Flow Summary
 
 ![Teleport Data Flow](../diagrams/teleport-data-flow-en.svg)
+
+
+---
+
+[← DeepLink](../36-DeepLink/deeplink-system-en.md) | [Index](../README_EN.md) | [Output Styles →](../38-输出样式/output-styles-en.md)

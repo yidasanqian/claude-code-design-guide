@@ -373,3 +373,8 @@ types/generated/
 | `LogOptions`   | 日志配置选项                        |
 | `Plugin`       | 插件清单 (manifest) schema         |
 | `PromptInputMode` | 输入模式枚举                    |
+
+
+---
+
+[← Screens 组件](../44-Screens组件/screens-components.md) | [目录](../README.md) | [完整数据流图 →](../46-完整数据流图/complete-data-flow.md)

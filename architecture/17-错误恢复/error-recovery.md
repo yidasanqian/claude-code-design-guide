@@ -224,3 +224,8 @@ reactiveCompact.recoverFromPromptTooLong()
 | 保留错误可能被吞没 | 可恢复错误先保留不暴露，但恢复失败时必须暴露原始错误 | 调试时注意区分"错误被成功恢复"和"错误被静默吞没" |
 | 模型降级后的状态清理 | 降级时需要清除 `StreamingToolExecutor`、剥离思考签名 | 如果降级后输出异常，检查 `stripSignatureBlocks` 是否正确执行 |
 | abort 信号处理 | 流式传输期间中断需要为未完成工具生成合成 `tool_result` | 中断后检查是否有遗留的工具状态未被清理 |
+
+
+---
+
+[← 记忆系统](../16-记忆系统/memory-system.md) | [目录](../README.md) | [遥测分析 →](../18-遥测分析/telemetry-system.md)

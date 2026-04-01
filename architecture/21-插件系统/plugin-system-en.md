@@ -202,3 +202,8 @@ claude marketplace list             # List plugins available on the marketplace
 | Plugin state reconciliation | Desired state and actual state may be inconsistent | `reconciler.ts` compares declared state with installed state and generates an operations plan |
 | Headless installation | CI/CD environments require non-interactive installation | Use the `headlessPluginInstall.ts` programmatic installation interface |
 | Plugin telemetry privacy | Do not expose specific plugin names/paths in telemetry | `hashPluginId()` takes the first 16 characters of a SHA256 hash |
+
+
+---
+
+[← Service Layer](../20-服务层/services-complete-en.md) | [Index](../README_EN.md) | [OAuth & Auth →](../22-OAuth与认证/oauth-auth-en.md)

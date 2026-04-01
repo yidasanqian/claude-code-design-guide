@@ -135,3 +135,8 @@ function App() {
 ## Inter-Component Communication
 
 ![Inter-Component Communication](../diagrams/screens-component-communication-en.svg)
+
+
+---
+
+[← Shell Toolchain](../43-Shell工具链/shell-toolchain-en.md) | [Index](../README_EN.md) | [Type System →](../45-类型系统/type-system-en.md)

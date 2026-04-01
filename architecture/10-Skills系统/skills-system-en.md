@@ -381,3 +381,8 @@ Implemented via `resolveSkillModelOverride()`. Use cases:
 
 > **Exponential decay ranking for skill usage**
 > `getSkillUsageScore()` uses 7-day half-life exponential decay (`Math.pow(0.5, daysSinceUse / 7)`), minimum factor 0.1. Long-unused skills hit floor but don't zero out — maintain minimum visibility in suggestion list.
+
+
+---
+
+[← Hooks System](../09-Hooks系统/hooks-system-en.md) | [Index](../README_EN.md) | [Multi-Agent →](../11-多智能体/multi-agent-en.md)

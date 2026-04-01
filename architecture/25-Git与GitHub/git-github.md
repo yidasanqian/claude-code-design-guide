@@ -303,3 +303,8 @@ addFileGlobRuleToGitignore(gitignorePath, globPattern)
 | 浅克隆检测 | `isShallowClone()` 检查 `.git/shallow` 文件存在 | 浅克隆仓库的 git 历史不完整，可能影响 recentCommits 注入 |
 | Git 配置解析 | `gitConfigParser.ts` 完整处理转义序列、subsection、内联注释 | 非标准 git 配置格式可能导致解析异常 |
 | worktree 支持 | `.git` 可能是文件而非目录 | `resolveGitDir()` 自动处理，但自定义脚本需注意此情况 |
+
+
+---
+
+[← 沙箱系统](../24-沙箱系统/sandbox-system.md) | [目录](../README.md) | [会话管理 →](../26-会话管理/session-management.md)

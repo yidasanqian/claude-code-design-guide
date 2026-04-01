@@ -712,7 +712,7 @@ export function findToolByName(tools: Tools, name: string): Tool | undefined
 
 ## 9. 工具执行完整数据流
 
-![Tool Execution Data Flow](diagrams/tool-execution-flow.svg)
+![Tool Execution Data Flow](../diagrams/tool-execution-flow.svg)
 
 ---
 
@@ -810,3 +810,8 @@ export function findToolByName(tools: Tools, name: string): Tool | undefined
 5. **`lazySchema` 的首次求值可能在热路径上** — 如果工具在用户第一次请求时被调用，lazy schema 的编译延迟会计入首次响应时间。对于核心工具（如 `Bash`、`FileRead`），这个延迟通常可忽略；对于复杂 schema，注意首次调用可能较慢
 
 6. **MCP 工具通过 `MCPTool` 桥接** — MCP 工具不直接实现 `Tool` 接口，而是通过 `MCPTool` 包装。如果需要修改 MCP 工具的行为，修改 `MCPTool` 桥接层，不要尝试修改 MCP 服务器返回的工具定义
+
+
+---
+
+[← API 客户端](../04-API客户端/api-client.md) | [目录](../README.md) | [权限与安全 →](../06-权限与安全/permission-security.md)

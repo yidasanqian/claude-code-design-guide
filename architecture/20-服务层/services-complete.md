@@ -553,3 +553,8 @@ teamMemSecretGuard(content: string): GuardResult
 | policyLimits fail-open 例外 | HIPAA 合规场景使用 `ESSENTIAL_TRAFFIC_DENY_ON_MISS` 模式 | 此模式下策略不可达时会拒绝操作而非放行 |
 | secretScanner fail-closed | 团队记忆写入时 secret scanner 扫描失败会阻止写入 | 宁可牺牲功能也不泄露密钥 |
 | settingsSync 冲突解决 | pull wins（远端数据优先） | 本地修改可能被远端覆盖 |
+
+
+---
+
+[← 反馈与调查](../19-反馈与调查/feedback-system.md) | [目录](../README.md) | [插件系统 →](../21-插件系统/plugin-system.md)

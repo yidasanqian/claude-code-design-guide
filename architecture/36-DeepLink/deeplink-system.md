@@ -178,3 +178,8 @@ LONG_PREFILL_THRESHOLD = 1000  // 预填充内容超过1000字符时的阈值
 > **背景注册可能静默失败**: `backgroundHousekeeping` 任务在后台静默执行协议注册,失败不会通知用户。如果 DeepLink 不工作,首先检查注册是否成功——特别是在 Linux 上,如果 `xdg-mime` 命令不可用,注册会静默失败。
 
 > **Git 仓库陈旧警告**: Banner 系统会检查 `.git/FETCH_HEAD` 的修改时间,超过 7 天 (`STALE_FETCH_WARN_MS`) 未 fetch 会显示警告。这不影响功能,但提醒用户仓库可能不是最新状态。
+
+
+---
+
+[← Computer Use](../35-Computer-Use/computer-use.md) | [目录](../README.md) | [Teleport →](../37-Teleport/teleport-system.md)

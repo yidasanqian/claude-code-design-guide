@@ -233,3 +233,8 @@ Edit `.claude/settings.json` in one terminal, and Claude Code in another termina
 > **policySettings can never be disabled**
 > `allowedSettingSources` always includes `'policySettings'` during initialization (`bootstrap/state.ts`), and is not affected by user operations. This is a security design — preventing developers from bypassing enterprise security policies.
 
+
+
+---
+
+[← UI Rendering](../12-UI渲染/ui-rendering-en.md) | [Index](../README_EN.md) | [State Management →](../14-状态管理/state-management-en.md)

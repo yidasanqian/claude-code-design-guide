@@ -372,3 +372,8 @@ Detected gateway information is recorded in telemetry data, helping Anthropic un
 | Orphaned span memory leaks | Exceptions may cause spans to never close | The system automatically cleans up orphaned spans with a TTL exceeding 30 minutes |
 | Event sequence numbers guarantee causal order | `eventSequence` is a monotonically increasing counter | In async environments, rely on sequence numbers rather than timestamps to determine event order |
 | Plugin telemetry privacy | `hashPluginId()` uses SHA256 and takes the first 16 characters | Raw plugin names/paths are not visible in telemetry data |
+
+
+---
+
+[← Error Recovery](../17-错误恢复/error-recovery-en.md) | [Index](../README_EN.md) | [Feedback & Survey →](../19-反馈与调查/feedback-system-en.md)

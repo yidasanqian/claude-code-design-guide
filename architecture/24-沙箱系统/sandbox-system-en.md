@@ -220,3 +220,8 @@ Leader → Worker: Return the sandbox permission decision result.
 | No native sandbox on Windows | `sandbox-exec`/`bwrap` are not available on Windows natively | Source code comments confirm that the PowerShell tool has no sandbox on native Windows |
 | Sandbox violations may be silently ignored | When `ignoreViolations: true`, violations do not block execution | Use this option only for debugging/development scenarios |
 | Each command is evaluated for sandboxing independently | Even after recently using `dangerouslyDisableSandbox`, subsequent commands still default to sandbox mode | Source code prompt explicitly requires "Treat each command individually" |
+
+
+---
+
+[← LSP Integration](../23-LSP集成/lsp-integration-en.md) | [Index](../README_EN.md) | [Git & GitHub →](../25-Git与GitHub/git-github-en.md)

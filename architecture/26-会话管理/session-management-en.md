@@ -299,3 +299,8 @@ JSONL (one JSON object per line) supports append-only writes — each message ap
 | Cost state is isolated by sessionId | The corresponding cost state is automatically loaded when resuming a session | Ensure `saveCurrentSessionCosts()` is called when the session ends |
 | `--no-session-persistence` | Completely disables disk writes in print mode | Suitable for high-privacy or one-off use scenarios |
 | History deduplication | `getTimestampedHistory()` deduplicates based on sessionId | Multiple writes with the same sessionId only retain the most recent entry |
+
+
+---
+
+[← Git & GitHub](../25-Git与GitHub/git-github-en.md) | [Index](../README_EN.md) | [Keybindings & Input →](../27-键绑定与输入/keybinding-system-en.md)

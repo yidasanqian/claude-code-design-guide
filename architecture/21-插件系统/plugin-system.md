@@ -200,3 +200,8 @@ claude marketplace list             # 列出 marketplace 可用插件
 | 插件状态协调 | 期望状态和实际状态可能不一致 | `reconciler.ts` 对比声明状态和已安装状态，生成操作计划 |
 | headless 安装 | CI/CD 环境需要无交互安装 | 使用 `headlessPluginInstall.ts` 程序化安装接口 |
 | 插件遥测隐私 | 遥测中不暴露插件具体名称/路径 | `hashPluginId()` SHA256 哈希后截取前 16 字符 |
+
+
+---
+
+[← 服务层](../20-服务层/services-complete.md) | [目录](../README.md) | [OAuth 与认证 →](../22-OAuth与认证/oauth-auth.md)

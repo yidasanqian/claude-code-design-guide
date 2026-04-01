@@ -199,3 +199,8 @@ Claude Code 消费 IDE 的语言服务（类型信息、定义跳转、引用查
 | 插件刷新时重新初始化 | `reinitializeLspServerManager()` 关闭旧实例创建新实例 | generation 计数器使旧 promise 失效 |
 | bare 模式跳过 LSP | 脚本调用模式下不需要代码智能功能 | `isBareMode()` 检查在初始化前执行 |
 | 延迟队列 | 连接未就绪时请求被缓冲 | 连接就绪后自动发送，但可能导致响应延迟 |
+
+
+---
+
+[← OAuth 与认证](../22-OAuth与认证/oauth-auth.md) | [目录](../README.md) | [沙箱系统 →](../24-沙箱系统/sandbox-system.md)

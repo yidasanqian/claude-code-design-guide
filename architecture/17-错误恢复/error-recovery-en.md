@@ -224,3 +224,8 @@ Detects and extracts refusal message content.
 | Withheld errors may be silently swallowed | Recoverable errors are withheld and not exposed, but the original error must be exposed if recovery fails | When debugging, distinguish between "error was successfully recovered" and "error was silently swallowed" |
 | State cleanup after model fallback | Fallback requires clearing `StreamingToolExecutor` and stripping thinking signatures | If output is abnormal after fallback, check whether `stripSignatureBlocks` was correctly executed |
 | Abort signal handling | Interruption during streaming requires generating synthetic `tool_result` for incomplete tools | After interruption, check whether any residual tool state was left uncleaned |
+
+
+---
+
+[← Memory System](../16-记忆系统/memory-system-en.md) | [Index](../README_EN.md) | [Telemetry & Analytics →](../18-遥测分析/telemetry-system-en.md)

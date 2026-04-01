@@ -303,3 +303,8 @@ addFileGlobRuleToGitignore(gitignorePath, globPattern)
 | Shallow clone detection | `isShallowClone()` checks for the existence of `.git/shallow` | Shallow clones have an incomplete git history, which may affect the recentCommits injection |
 | Git config parsing | `gitConfigParser.ts` fully handles escape sequences, subsections, and inline comments | Non-standard git config formats may cause parsing errors |
 | Worktree support | `.git` may be a file rather than a directory | `resolveGitDir()` handles this automatically, but custom scripts should be aware of this case |
+
+
+---
+
+[← Sandbox System](../24-沙箱系统/sandbox-system-en.md) | [Index](../README_EN.md) | [Session Management →](../26-会话管理/session-management-en.md)

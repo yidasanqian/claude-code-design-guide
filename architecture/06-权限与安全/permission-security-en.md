@@ -589,3 +589,8 @@ When adding new regex patterns in `dangerousPatterns.ts`:
 
 5. **Sub-agent permissions use `bubble` mode** — Sub-agents (created via `AgentTool`) should not make independent permission decisions. `bubble` mode lets permission requests bubble to parent. If seeing unexpected permission behavior in sub-agent, check whether `bubble` mode is correctly set
 
+
+
+---
+
+[← Tool System](../05-工具系统/tool-system-en.md) | [Index](../README_EN.md) | [Context Management →](../07-上下文管理/context-management-en.md)

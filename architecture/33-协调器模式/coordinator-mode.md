@@ -233,3 +233,8 @@ Coordinator 自动识别任务依赖关系,最大化并行度。
 > **模式一致性检查**: `matchSessionMode()` 确保恢复会话时模式匹配——以 coordinator 模式创建的会话不能被 normal 模式恢复 (反之亦然)。如果恢复失败,检查会话的原始创建模式。
 
 > **Worker 上下文隔离**: 每个 Worker 运行在独立上下文中,不共享内存状态。Worker 不能直接读取 Coordinator 的变量或其他 Worker 的状态——只能通过 `<task-notification>` XML 报告和暂存目录间接通信。
+
+
+---
+
+[← Buddy 系统](../32-Buddy系统/buddy-system.md) | [目录](../README.md) | [Swarm 系统 →](../34-Swarm系统/swarm-architecture.md)

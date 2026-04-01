@@ -319,3 +319,8 @@ GET /v1/models
 - Queries specific capability parameters of models via the API
 - Query results are cached to a local file to avoid repeated requests
 - Includes context window size, supported feature flags, and other information
+
+
+---
+
+[← Output Styles](../38-输出样式/output-styles-en.md) | [Index](../README_EN.md) | [Migration System →](../40-迁移系统/migration-system-en.md)

@@ -448,3 +448,8 @@ In coordinator mode, an XML notification is generated when an agent completes (f
 > Source `runAgent.ts:466` notes: sub-agents must preserve `--allowedTools` rules from the SDK (cliArg rules). These are security constraints that cannot be overridden by the sub-agent's tool configuration.
 
 
+
+
+---
+
+[← Skills System](../10-Skills系统/skills-system-en.md) | [Index](../README_EN.md) | [UI Rendering →](../12-UI渲染/ui-rendering-en.md)

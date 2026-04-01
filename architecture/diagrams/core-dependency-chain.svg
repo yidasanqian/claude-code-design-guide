@@ -78,3 +78,5 @@
   <rect x="600" y="580" width="200" height="50" class="module" rx="5"/>
   <text x="700" y="605" class="module-text" text-anchor="middle">utils/</text>
   <text x="700" y="620" class="desc-text" text-anchor="middle">sandbox, settings, etc.</text>
+
+</svg>

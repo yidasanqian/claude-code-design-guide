@@ -229,3 +229,8 @@ common        ~49%      20-55        基础外观
 > **不要手动编辑 Bones 来获取稀有伴侣**: 源码设计明确防止这种操作——Bones 在每次 `getCompanion()` 调用时从 userId 重新生成,覆盖任何手动修改。如果你修改了存储文件中的 rarity 为 `legendary`,下次加载时会被重新计算回原来的值。
 
 > **rng 调用顺序敏感**: `mulberry32` 是顺序 PRNG——同一 seed 产生固定序列。如果在 `roll()` 中改变了 `rng()` 的调用顺序 (例如先 roll species 再 roll rarity),所有用户的伴侣都会变化。添加新的随机属性时,必须在现有调用链的**末尾**追加,不能插入中间。
+
+
+---
+
+[← Bridge 协议](../31-Bridge协议/bridge-protocol.md) | [目录](../README.md) | [协调器模式 →](../33-协调器模式/coordinator-mode.md)

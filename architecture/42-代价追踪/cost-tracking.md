@@ -166,3 +166,8 @@ StoredCostState = {
 ### 门控条件
 - `isExtraUsageAllowed()`: 检查是否允许额外用量
 - `isOverageProvisioningAllowed()`: 检查是否允许超额配置
+
+
+---
+
+[← 文件持久化](../41-文件持久化/file-persistence.md) | [目录](../README.md) | [Shell 工具链 →](../43-Shell工具链/shell-toolchain.md)

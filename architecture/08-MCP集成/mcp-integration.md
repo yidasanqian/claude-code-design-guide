@@ -438,3 +438,8 @@ type ChannelEntry =
 
 > **MCP 服务器 memoization 增加复杂性**
 > 源码 `client.ts:589` 的 TODO 注释指出：MCP 客户端的 memoization 显著增加了代码复杂度，且性能收益不确定。修改 MCP 连接逻辑时要注意缓存状态一致性问题。
+
+
+---
+
+[← 上下文管理](../07-上下文管理/context-management.md) | [目录](../README.md) | [Hooks 系统 →](../09-Hooks系统/hooks-system.md)

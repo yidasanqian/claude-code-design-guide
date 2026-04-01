@@ -658,3 +658,8 @@ clearCompactWarningSuppression() // 清除抑制
 
 > **Reactive compact 仅尝试一次**
 > `hasAttemptedReactiveCompact` 标志限制每次循环迭代仅尝试一次应急压缩。如果压缩后仍然 413，循环终止（`reason: 'prompt_too_long'`）。不要依赖 reactive compact 作为常规压缩手段。
+
+
+---
+
+[← 权限与安全](../06-权限与安全/permission-security.md) | [目录](../README.md) | [MCP 集成 →](../08-MCP集成/mcp-integration.md)

@@ -319,3 +319,8 @@ Compile-time flags (`feature()` macro) and runtime flags are two independent sys
 3. **Don't add network-requiring steps in `setup()`** — Network configuration in `setup()` is already completed in `init()`, but some steps in `setup()` (like Worktree creation) may change working directory. If your step needs network and depends on CWD, pay attention to execution order
 
 4. **Don't ignore migration steps** — 12 migration functions execute in `run()` before `init()`. If you modify data formats, need to add corresponding migration to ensure old data compatibility
+
+
+---
+
+[← System Overview](../01-系统总览/system-overview-en.md) | [Index](../README_EN.md) | [Query Engine →](../03-查询引擎/query-engine-en.md)

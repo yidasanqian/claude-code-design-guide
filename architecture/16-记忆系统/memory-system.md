@@ -442,3 +442,8 @@ wc -c .claude/MEMORY.md
 | 记忆未被检索到 | `findRelevantMemories` 基于 Sonnet 的语义匹配，描述不清晰的记忆可能被忽略 | 确保记忆文件的 header/描述清晰反映内容主题 |
 | autoDream 整合冲突 | 并发的 Claude Code 实例同时运行 autoDream | PID 锁机制（60 分钟超时）防止并发，但崩溃后可能需要手动清理锁文件 |
 | 仅保存从项目状态不可推导的信息 | 代码模式、架构、git 历史等可推导内容不应作为记忆 | 遵循四类分类法，避免存储可以通过 grep/git/文件结构获取的信息 |
+
+
+---
+
+[← 命令体系](../15-命令体系/command-system.md) | [目录](../README.md) | [错误恢复 →](../17-错误恢复/error-recovery.md)

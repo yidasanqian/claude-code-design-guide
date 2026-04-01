@@ -229,3 +229,8 @@ common        ~49%          20-55         Base appearance
 > **Do not manually edit Bones to obtain a rare companion**: The source code is explicitly designed to prevent this — Bones are regenerated from userId every time `getCompanion()` is called, overwriting any manual modifications. If you change the rarity in the storage file to `legendary`, it will be recalculated back to the original value on the next load.
 
 > **rng call order is sensitive**: `mulberry32` is a sequential PRNG — the same seed produces a fixed sequence. If the order of `rng()` calls in `roll()` is changed (e.g., rolling species before rarity), all users' companions will change. When adding new random attributes, they must be appended to the **end** of the existing call chain — never inserted in the middle.
+
+
+---
+
+[← Bridge Protocol](../31-Bridge协议/bridge-protocol-en.md) | [Index](../README_EN.md) | [Coordinator Pattern →](../33-协调器模式/coordinator-mode-en.md)

@@ -249,3 +249,8 @@ The Bridge protocol defines a rich type system to underpin the entire communicat
 > **Cascading effects of authentication expiry**: After a Bridge authentication token expires (401), all in-flight requests will fail. `createBridgeApiClient` has built-in authentication retry capability, but if the token is completely invalid (rather than temporarily expired), it will throw a `BridgeFatalError`. Do not retry fatal errors in a loop.
 
 > **validateBridgeId() must be called**: This is not optional validation — the Bridge ID is used directly to construct API URL paths, and skipping validation can lead to path traversal attacks. Any entry point that receives an external Bridge ID must call this function first.
+
+
+---
+
+[← Remote Session](../30-远程会话/remote-session-en.md) | [Index](../README_EN.md) | [Buddy System →](../32-Buddy系统/buddy-system-en.md)

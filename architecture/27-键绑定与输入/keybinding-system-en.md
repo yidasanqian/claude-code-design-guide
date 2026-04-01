@@ -471,3 +471,8 @@ useKeybindings({
 | Chord sequence cancelled mid-way | A key press with no matching continuation during a chord sequence returns `chord_cancelled` and resets | The user must restart the entire chord sequence from the beginning |
 | keybindings.json format errors | Invalid JSON or a structure that does not conform to the schema | Automatically falls back to default bindings and outputs a warning log |
 | Platform modifier key differences | macOS uses Meta (Command), Windows/Linux uses Alt | `keystrokesEqual()` treats alt and meta as equivalent |
+
+
+---
+
+[← Session Management](../26-会话管理/session-management-en.md) | [Index](../README_EN.md) | [Vim Mode →](../28-Vim模式/vim-mode-en.md)

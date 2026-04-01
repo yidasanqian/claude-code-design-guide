@@ -354,3 +354,8 @@ The authentication system tries each source in the following priority order, usi
 | Port conflict | The local OAuth callback server port is occupied | Use port 0 to let the OS assign a random available port |
 | state parameter CSRF protection | A mismatched state in the callback will be rejected | Ensure the state parameter in the browser callback matches the one sent in the original request |
 | `getAnthropicClient` circular reference risk | This function is called from many places | Source comment: "Currently we create a new GoogleAuth instance for every getAnthropicClient() call" — be aware of the performance impact |
+
+
+---
+
+[← Plugin System](../21-插件系统/plugin-system-en.md) | [Index](../README_EN.md) | [LSP Integration →](../23-LSP集成/lsp-integration-en.md)

@@ -300,3 +300,8 @@ Marketplace plugins can register their own tips. These plugin tips are incorpora
 | 400 ms debounce window | Digit key ratings require no further input within 400 ms to trigger | Rapid consecutive input may cause ratings to go unrecognized |
 | `/feedback` command has gating conditions | Unavailable with Bedrock/Vertex/Foundry backends, ANT internal users, or when policy disallows it | The feedback entry point may differ across environments |
 | Tip display history persists across sessions | Stored in the global config (`tipId → numStartups` mapping) | Clearing the config will reset the tip display history |
+
+
+---
+
+[← Telemetry & Analytics](../18-遥测分析/telemetry-system-en.md) | [Index](../README_EN.md) | [Service Layer →](../20-服务层/services-complete-en.md)

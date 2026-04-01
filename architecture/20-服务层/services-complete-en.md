@@ -553,3 +553,8 @@ Team memory is synchronized among team members, so it is essential to prevent on
 | policyLimits fail-open exception | HIPAA compliance scenarios use `ESSENTIAL_TRAFFIC_DENY_ON_MISS` mode | In this mode, operations are denied rather than allowed when the policy is unreachable |
 | secretScanner fail-closed | Secret scanner scan failure blocks team memory writes | Functionality is sacrificed rather than secrets leaked |
 | settingsSync conflict resolution | pull wins (remote data takes precedence) | Local modifications may be overwritten by remote data |
+
+
+---
+
+[← Feedback & Survey](../19-反馈与调查/feedback-system-en.md) | [Index](../README_EN.md) | [Plugin System →](../21-插件系统/plugin-system-en.md)

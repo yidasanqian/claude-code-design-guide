@@ -659,3 +659,8 @@ If developing a new tool with large output results, need to add to microcompact 
 > **Reactive compact only attempts once**
 > `hasAttemptedReactiveCompact` flag limits to one emergency compression attempt per loop iteration. If still 413 after compression, loop terminates (`reason: 'prompt_too_long'`). Don't rely on reactive compact as regular compression method.
 
+
+
+---
+
+[← Permission & Security](../06-权限与安全/permission-security-en.md) | [Index](../README_EN.md) | [MCP Integration →](../08-MCP集成/mcp-integration-en.md)

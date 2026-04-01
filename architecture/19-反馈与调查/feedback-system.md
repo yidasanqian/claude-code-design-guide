@@ -300,3 +300,8 @@ Marketplace 插件可以注册自己的 tips，这些插件 tips 会被纳入统
 | 400ms 防抖窗口 | 数字键评分需要 400ms 内无后续输入才触发 | 快速连续输入可能导致评分不被识别 |
 | `/feedback` 命令有门控条件 | Bedrock/Vertex/Foundry 后端、ANT 内部用户、policy 不允许时不可用 | 不同环境下反馈入口可能不同 |
 | Tip 展示历史跨会话保持 | 存储在全局 config 中（`tipId → numStartups` 映射） | 清除 config 会重置 tip 展示历史 |
+
+
+---
+
+[← 遥测分析](../18-遥测分析/telemetry-system.md) | [目录](../README.md) | [服务层 →](../20-服务层/services-complete.md)

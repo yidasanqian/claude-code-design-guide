@@ -178,3 +178,8 @@ If a DeepLink was triggered but the terminal did not launch correctly:
 > **Background registration may fail silently**: The `backgroundHousekeeping` task performs protocol registration silently in the background; failures are not reported to the user. If DeepLink is not working, first check whether registration succeeded — especially on Linux, if the `xdg-mime` command is unavailable, registration will fail silently.
 
 > **Git repository stale warning**: The banner system checks the modification time of `.git/FETCH_HEAD`; if more than 7 days (`STALE_FETCH_WARN_MS`) have passed since the last fetch, a warning is displayed. This does not affect functionality, but reminds the user that the repository may not be up to date.
+
+
+---
+
+[← Computer Use](../35-Computer-Use/computer-use-en.md) | [Index](../README_EN.md) | [Teleport →](../37-Teleport/teleport-system-en.md)

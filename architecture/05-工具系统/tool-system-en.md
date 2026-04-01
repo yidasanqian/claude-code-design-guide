@@ -181,3 +181,7 @@ export type ToolUseContext = {
   userModified?: boolean                                // User modified
 }
 ```
+
+---
+
+[← API Client](../04-API客户端/api-client-en.md) | [Index](../README_EN.md) | [Permission & Security →](../06-权限与安全/permission-security-en.md)

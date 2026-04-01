@@ -166,3 +166,8 @@ Manages extra usage quotas, supporting team/enterprise administrators granting o
 ### Gate Conditions
 - `isExtraUsageAllowed()`: Checks whether extra usage is permitted.
 - `isOverageProvisioningAllowed()`: Checks whether overage provisioning is permitted.
+
+
+---
+
+[← File Persistence](../41-文件持久化/file-persistence-en.md) | [Index](../README_EN.md) | [Shell Toolchain →](../43-Shell工具链/shell-toolchain-en.md)

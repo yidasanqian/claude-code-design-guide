@@ -381,3 +381,8 @@ score = usageCount * max(0.5^(daysSinceUse / 7), 0.1)
 
 > **技能使用量的指数衰减排名**
 > `getSkillUsageScore()` 使用 7 天半衰期的指数衰减（`Math.pow(0.5, daysSinceUse / 7)`），最低因子 0.1。长期未用的技能评分触底但不会归零——在建议列表中始终保持最低可见性。
+
+
+---
+
+[← Hooks 系统](../09-Hooks系统/hooks-system.md) | [目录](../README.md) | [多智能体 →](../11-多智能体/multi-agent.md)

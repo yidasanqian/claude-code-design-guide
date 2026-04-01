@@ -228,3 +228,8 @@ INSERT → NORMAL:
 > **系统剪贴板需要原生支持**: `y` (yank) 和 `p` (paste) 操作涉及系统剪贴板交互。Vim 内部的寄存器 (`PersistentState.register`) 是纯内存结构,但与系统剪贴板的同步依赖平台原生能力 (如 `pbcopy`/`pbpaste` 或 `xclip`),不可用时只能在 Vim 内部寄存器间操作。
 
 > **`<Esc>` 的多重含义**: Escape 键既用于从 INSERT 切回 NORMAL,也用于取消正在进行的命令 (如输入 `d` 后按 Esc 取消删除操作)。如果系统中有其他全局热键拦截了 Escape (如 Computer-Use 的 CGEventTap),Vim 模式的 Esc 可能不生效。
+
+
+---
+
+[← 键绑定与输入](../27-键绑定与输入/keybinding-system.md) | [目录](../README.md) | [语音系统 →](../29-语音系统/voice-system.md)

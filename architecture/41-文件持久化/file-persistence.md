@@ -156,3 +156,8 @@ if (dirent.isSymbolicLink()) {
 - 符号链接始终被跳过, 这是安全设计决策
 - `turnStartTime` 精度依赖于系统时钟, 时钟偏移可能导致遗漏或重复
 - `AbortSignal` 允许在用户发起新 turn 时中断尚未完成的上传
+
+
+---
+
+[← 迁移系统](../40-迁移系统/migration-system.md) | [目录](../README.md) | [代价追踪 →](../42-代价追踪/cost-tracking.md)

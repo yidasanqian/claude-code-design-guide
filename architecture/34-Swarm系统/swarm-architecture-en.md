@@ -332,3 +332,8 @@ Need to run in CI/headless environment?
 > **Pane initialization delay**: After a tmux pane is created, `PANE_SHELL_INIT_DELAY_MS = 200ms` of wait time is needed for shell initialization. Concurrent pane creation uses a lock mechanism to ensure ordering — if "command not found" errors are observed, the initialization delay may be insufficient.
 
 > **Memory sharing in in-process mode**: Unlike tmux/iTerm2, in-process teammates share the same Node.js process memory as the leader. Although logically isolated (each with its own AbortController), a memory leak in one teammate will affect all other teammates and the leader.
+
+
+---
+
+[← Coordinator Pattern](../33-协调器模式/coordinator-mode-en.md) | [Index](../README_EN.md) | [Computer Use →](../35-Computer-Use/computer-use-en.md)

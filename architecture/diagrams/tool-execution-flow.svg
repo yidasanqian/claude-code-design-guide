@@ -85,3 +85,5 @@
   <!-- Next turn -->
   <rect x="400" y="810" width="300" height="50" class="step" rx="5" fill="#dcfce7" stroke="#16a34a"/>
   <text x="550" y="840" class="step-text" text-anchor="middle" fill="#16a34a">附加到消息列表 → 下一轮</text>
+
+</svg>

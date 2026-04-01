@@ -361,3 +361,8 @@ type RenderOptions = {
 
 > **早期输入捕获**
 > `seedEarlyInput()` 在 REPL 完全就绪前捕获用户击键并缓存，就绪后回放。添加新的输入处理逻辑时要确保与早期输入兼容。
+
+
+---
+
+[← 多智能体](../11-多智能体/multi-agent.md) | [目录](../README.md) | [配置体系 →](../13-配置体系/config-system.md)

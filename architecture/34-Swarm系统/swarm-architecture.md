@@ -332,3 +332,8 @@ const PANE_SHELL_INIT_DELAY_MS = 200
 > **面板初始化延迟**: tmux 面板创建后需要 `PANE_SHELL_INIT_DELAY_MS = 200ms` 等待 shell 初始化,并发创建面板使用锁机制保证顺序——如果观察到"command not found"错误,可能是初始化延迟不够。
 
 > **in-process 模式的内存共享**: 与 tmux/iTerm2 不同,in-process teammates 与 leader 共享同一 Node.js 进程内存。虽然逻辑隔离 (独立 AbortController),但一个 teammate 的内存泄漏会影响所有 teammates 和 leader。
+
+
+---
+
+[← 协调器模式](../33-协调器模式/coordinator-mode.md) | [目录](../README.md) | [Computer Use →](../35-Computer-Use/computer-use.md)

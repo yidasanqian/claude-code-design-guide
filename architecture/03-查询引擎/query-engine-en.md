@@ -668,3 +668,8 @@ When model stops prematurely or delays stopping:
 5. **`stopHookActive` prevents stop hook recursion** — After stop hooks return `blockingErrors`, `stopHookActive` is set to true, preventing stop hooks from executing again in next loop iteration. If your code depends on stop hook execution, note this flag may cause hooks to be skipped
 
 6. **Token Budget's `completionEvent` may be null** — `StopDecision.completionEvent` being null means query didn't participate in budget system (like sub-agent queries), don't call property access on null value
+
+
+---
+
+[← Startup & Initialization](../02-启动与初始化/initialization-en.md) | [Index](../README_EN.md) | [API Client →](../04-API客户端/api-client-en.md)

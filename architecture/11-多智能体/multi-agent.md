@@ -446,3 +446,8 @@ Fork 子 agent 与父 agent 共享 prompt cache，通过 `createCacheSafeParams(
 
 > **IMPORTANT: 保留 cliArg 规则**
 > 源码 `runAgent.ts:466` 标注：子代理必须保留来自 SDK 的 `--allowedTools` 规则（cliArg rules），这些是安全约束，不能被子代理的工具集配置覆盖。
+
+
+---
+
+[← Skills 系统](../10-Skills系统/skills-system.md) | [目录](../README.md) | [UI 渲染 →](../12-UI渲染/ui-rendering.md)

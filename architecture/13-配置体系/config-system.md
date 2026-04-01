@@ -232,3 +232,8 @@ readProjectConfig(): ProjectConfig // 读取项目级配置
 
 > **policySettings 永远不能被禁用**
 > `allowedSettingSources` 初始化时始终包含 `'policySettings'`（`bootstrap/state.ts`），且不受用户操作影响。这是安全设计——防止开发者绕过企业安全策略。
+
+
+---
+
+[← UI 渲染](../12-UI渲染/ui-rendering.md) | [目录](../README.md) | [状态管理 →](../14-状态管理/state-management.md)

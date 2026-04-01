@@ -287,3 +287,8 @@ Bridge 模式下允许执行的安全命令集合。
 
 > **getCommands() 是 memoized 的**
 > `getCommands(cwd)` 返回缓存的命令列表。如果动态添加了新命令（如 MCP skills 或插件），需要清除缓存（`clearCommandsCache()`、`clearCommandMemoizationCaches()`）才能看到新命令。
+
+
+---
+
+[← 状态管理](../14-状态管理/state-management.md) | [目录](../README.md) | [记忆系统 →](../16-记忆系统/memory-system.md)

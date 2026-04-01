@@ -263,3 +263,8 @@ const directConnectManager = {
 > **Side effects of exponential backoff reconnection**: After a disconnection the reconnect interval grows exponentially (1s→2s→4s→8s→...→30s). If the user performs manual operations while waiting for reconnection, state inconsistency may result. The counter resets once the connection succeeds, but messages sent during reconnection are lost (they are not buffered) — ensure that important operations are sent only after the connection is confirmed.
 
 > **Session modes must not be mixed**: A session in `detached` state can be re-`attach`ed, but do not attempt to send messages while in `stopping` state. When `idleTimeout` expires the session automatically transitions to `stopping` → `stopped`; a stopped session cannot be recovered.
+
+
+---
+
+[← Voice System](../29-语音系统/voice-system-en.md) | [Index](../README_EN.md) | [Bridge Protocol →](../31-Bridge协议/bridge-protocol-en.md)

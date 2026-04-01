@@ -240,3 +240,8 @@ SHELL_TYPES = ['bash', 'powershell']
 
 - **isPathSafe()**: 路径安全验证，拒绝包含路径遍历（`..`）的条目，防止 zip slip 攻击
 - **Zip bomb 检测**: 通过压缩比检查（50:1 上限）检测潜在的 zip 炸弹，防止解压时耗尽磁盘空间和内存
+
+
+---
+
+[← 代价追踪](../42-代价追踪/cost-tracking.md) | [目录](../README.md) | [Screens 组件 →](../44-Screens组件/screens-components.md)

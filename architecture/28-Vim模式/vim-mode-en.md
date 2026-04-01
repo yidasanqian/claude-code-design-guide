@@ -228,3 +228,8 @@ INSERT → NORMAL:
 > **System clipboard requires native support**: `y` (yank) and `p` (paste) operations involve system clipboard interaction. Vim's internal registers (`PersistentState.register`) are pure in-memory structures, but synchronization with the system clipboard depends on platform-native capabilities (such as `pbcopy`/`pbpaste` or `xclip`). When unavailable, operations can only work within Vim's internal registers.
 
 > **Multiple meanings of `<Esc>`**: The Escape key is used both to switch from INSERT back to NORMAL, and to cancel an in-progress command (e.g., pressing `d` then Esc cancels the delete operation). If another global hotkey in the system intercepts Escape (such as a CGEventTap in Computer-Use), the Vim mode Esc may not work.
+
+
+---
+
+[← Keybindings & Input](../27-键绑定与输入/keybinding-system-en.md) | [Index](../README_EN.md) | [Voice System →](../29-语音系统/voice-system-en.md)
